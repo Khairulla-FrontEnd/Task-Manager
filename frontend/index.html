@@ -5,11 +5,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./style.css">
     <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="./node_modules/bootstrap-icons/font/bootstrap-icons.css">
+    <link rel="icon" href="./favicon.ico" type="image/x-icon">
     <title>Task Manager</title>
 </head>
 <body>
-    <h1 class="text-center">Hello, World!</h1>
+    <h1 class="text-center text-white title mt-2">My Task Manager</h1>
+    <div class="container mt-5">
+        <div class="input-group input-group-lg mb-3">
+            <input class="form-control task-control" type="text">
+            <button type="button" class="input-group-text add-btn">Add</button>
+        </div>
+        <small class="text-danger task-error">Please, fill your form with a task!</small>
+    </div>
 </body>
-<script src="./node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
 <script type="module" src="./index.js"></script>
+<script src="./node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
 </html>

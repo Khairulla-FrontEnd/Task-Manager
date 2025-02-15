@@ -1,0 +1,55 @@
+*:not(.add-btn, .form-control){
+    color:white !important;
+}
+body{
+    background: linear-gradient(90deg, rgba(70,198,244,1) 35%, rgba(0,240,255,1) 100%);
+}
+.form-control{
+    background-color: rgba(255, 255, 255, 0.4) !important;
+    backdrop-filter: blur(5.5px);
+}
+.add-btn{
+    transition: all 0.3s ease;
+}
+.add-btn:hover{
+    background-color:rgb(207, 204, 204) !important;
+}
+.add-btn:active{
+    background-color: white !important;
+}
+.title{
+    font-family:Georgia, 'Times New Roman', Times, serif !important;
+}
+.card{
+    background-color: inherit !important;
+    border-radius: 10px !important;
+}
+.card-body{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(97, 183, 249, 0.532) !important;
+    backdrop-filter: blur(5.5px);
+    border-radius: 10px;
+}
+.card-body div{
+    display: flex;
+    gap: 20px;
+    font-size: 20px;
+}
+.card-body i{
+    padding-inline: 10px;
+    padding-block:5px;
+    border-radius: 10px;
+    cursor: pointer;
+    border-style:solid;
+    border-width:2px;
+    border-color:rgb(97, 183, 249);
+    transition: all 0.3s ease;
+}
+.card-body i:hover{
+    border-color:white;
+}
+.task-error{
+    display: none;
+}
