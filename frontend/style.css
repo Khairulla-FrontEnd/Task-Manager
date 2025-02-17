@@ -50,6 +50,6 @@ body{
 .card-body i:hover{
     border-color:white;
 }
-.task-error{
+.task-error, .no-task{
     display: none;
 }
